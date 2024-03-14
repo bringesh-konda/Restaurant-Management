@@ -1,0 +1,80 @@
+@media (min-width: 576px) {
+   .d-flex{
+    width: 50%;
+    height: 45px;
+   }
+
+   .navbar{
+    height: 13vh;
+   }
+
+   .card-img-top{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+    video{
+        width: 60%;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+    .video-container {
+        position: relative;
+        left: 20%;
+        margin:auto;
+        overflow: hidden;
+      }
+
+      video{
+        width: 60%;
+      }
+
+      .card-img-top{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+
+      .video{
+        height: 100px;
+        width: 50%;
+      }
+
+    .navbar{
+        height: 13vh;
+    }
+    .navbar-brand{
+        padding-left: 70px;
+    }
+
+    .nav-link{
+        margin: 10px;
+    }
+
+    .btn{
+        margin-left: 20px;
+        height: 45px;
+    }
+
+    .d-flex{
+        width: 70%;
+        height: 45px;
+    }
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .navbar-collapse{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
